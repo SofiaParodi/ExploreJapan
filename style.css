@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;1,8..60,300&display=swap");
+
+@import url("https://fonts.cdnfonts.com/css/aorytha");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* n a v */
+.header__nav {
+  height: 9dvh;
+  width: 100dvw;
+  background-color: #f5e5c4;
+  padding: 0.1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.item__link {
+  text-decoration: none;
+  color: #cd706c;
+  margin-right: 15px;
+}
+
+/* h e r o */
+
+.header__hero {
+  height: 100dvh;
+  width: 100%;
+  background-image: url(/asssets/img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0.1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__card {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    padding: 15px;
+ 
+
+
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.45);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.1px);
+-webkit-backdrop-filter: blur(7.1px);
+border: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.card__title {
+  font-family: "Aorytha", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: #636363;
+}
+
+.card__description {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Oxygen', sans-serif;
+    color: #636363;
+}
+
